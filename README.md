@@ -39,10 +39,10 @@ Run the following command: RegAsm ClassicASP.PBKDF2.dll /tlb /codebase
 
 	Password: myPassword
 	
-	PBKDF2 Hash: AQAAAAIAAHUwAAAAEHhMDmEV5UBQt7PP/Da/ughVC2xxpluFxBi7tsseMgD/uVovJw+cY4xrXftimQbYng==
+	PBKDF2 Hash: AQAAAAIAAHUwAAAAEMQDlEV5lXwV4qDUsVEwIfMtjnQHmEpV/BI8GV+36+vTjaAuVsbYZc+cqexrh7KHjA==
 
-	Time to execute: 0.0859s
+	Time to execute: 0.1992s
 
 	PBKDF2 Verified: True
 
-	Time to execute: 0.0938s
+	Time to execute: 0.2656s
