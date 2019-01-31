@@ -9,11 +9,11 @@
 
   <ItemGroup>
     <Reference Include="Microsoft.AspNetCore.Cryptography.Internal">
-      <HintPath>..\..\..\..\.nuget\packages\microsoft.aspnetcore.cryptography.internal\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.Internal.dll</HintPath>
+      <HintPath>Microsoft.AspNetCore.Cryptography.Internal.dll</HintPath>
       <Private>true</Private>
     </Reference>
     <Reference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation">
-      <HintPath>..\..\..\..\.nuget\packages\microsoft.aspnetcore.cryptography.keyderivation\2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</HintPath>
+      <HintPath>Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</HintPath>
       <Private>true</Private>
     </Reference>
   </ItemGroup>
