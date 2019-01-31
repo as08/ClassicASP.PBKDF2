@@ -1,9 +1,9 @@
 <%
+
 	' INSTALLATION:
 	'************************************************************************
 	
-	' Uses CryptoHelper (a Standalone password hasher for ASP.NET Core using 
-	' a PBKDF2 implementation) by henkmollema
+	' Uses CryptoHelper (a Standalone password hasher for ASP.NET Core using a PBKDF2 implementation) by henkmollema
 	' https://github.com/henkmollema/CryptoHelper
 	
 	' Make sure you have the lastest .NET Framework installed (tested on .NET Framework 4.7.2)
@@ -48,11 +48,11 @@
 		Dim PBKDF2 : set PBKDF2 = server.CreateObject("ClassicASP.PBKDF2")
 		
 			PBKDF2_hash = 	PBKDF2.hash(_
-							password,_
-							PBKDF2_iterations,_
-							PBKDF2_alg,_
-							PBKDF2_saltBytes,_
-							PBKDF2_keyLength)
+					password,_
+					PBKDF2_iterations,_
+					PBKDF2_alg,_
+					PBKDF2_saltBytes,_
+					PBKDF2_keyLength)
 		
 		set PBKDF2 = nothing
 		
@@ -84,5 +84,6 @@
 	start = Timer()
 	
 	response.write "<p><b>PBKDF2 Verified:</b> " & PBKDF2_verify(testPassword,pb2_hash) & "</p>"
-	response.write "<p><b>Time to execute:</b> " & formatNumber(Timer()-start,4) & "s</p>"	
+	response.write "<p><b>Time to execute:</b> " & formatNumber(Timer()-start,4) & "s</p>"
+	
 %>
