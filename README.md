@@ -1,4 +1,4 @@
-PBKDF2 hashing algorithm implemented in VBscript for Classic ASP
+This is a Component Object Model (COM) Dynamic-link library (DLL) coded in C# that can be set in Classic ASP using VBscripts "CreateObject" method and allows to compute PBKDF2 hashes within Classic ASP.
 
 ## INSTALLATION:
 Uses CryptoHelper (a Standalone password hasher for ASP.NET Core using a PBKDF2 implementation) by henkmollema
