@@ -1,5 +1,9 @@
 This is a Component Object Model (COM) Dynamic-link library (DLL) coded in C# that can be set in Classic ASP using VBscripts "CreateObject" method and allows you to compute PBKDF2 hashes.
 
+PBKDF2 (Password-Based Key Derivation Function 2) is key derivation function with a sliding computational cost, aimed to reduce the vulnerability of encrypted keys to brute force attacks. RFC 8018 recommends PBKDF2 for password hashing
+
+https://en.wikipedia.org/wiki/PBKDF2
+
 ## INSTALLATION:
 Uses CryptoHelper (a Standalone password hasher for ASP.NET Core using a PBKDF2 implementation) by henkmollema
 https://github.com/henkmollema/CryptoHelper
